@@ -1,5 +1,5 @@
 server:
-  port: 10208
+  port: 6688
 spring:
   freemarker:
     suffix: .html
@@ -8,7 +8,7 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     url: jdbc:mysql://localhost:3306/happy-study?useSSL=false&serverTimezoneCST
     username: root
-    password: aiywh3
+    password: abc123456
     filters: stat
 mybatis:
   configuration:
